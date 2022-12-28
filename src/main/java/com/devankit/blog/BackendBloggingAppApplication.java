@@ -11,6 +11,7 @@ public class BackendBloggingAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BackendBloggingAppApplication.class, args);
 	}
+	
 	@Bean
 	public ModelMapper modelMapper()
 	{
